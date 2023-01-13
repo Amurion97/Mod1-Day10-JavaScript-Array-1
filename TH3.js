@@ -9,7 +9,7 @@ document.getElementById("search").addEventListener("click",function (){
     }
     arr[length-1] = last;
     if ((i < length - 1) || (last === key)){
-        document.getElementById("notification").innerHTML = `<hr/> ${key} is located in position ${i}`;
+        document.getElementById("notification").innerHTML = `<hr/> ${key} is located in position ${i+1}`;
     } else {
         document.getElementById("notification").innerHTML = "<hr/> Not found";
     }
